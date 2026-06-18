@@ -1,0 +1,7 @@
+samueltabares@Tabss-MacBook docker-python % docker images potencia-py
+IMAGE                ID             DISK USAGE   CONTENT SIZE   EXTRA
+potencia-py:latest   43b0a01e8335        208MB         45.2MB   U
+samueltabares@Tabss-MacBook docker-python % docker ps -a --filter name=contenedor-py
+CONTAINER ID   IMAGE         COMMAND           STATUS                     NAMES
+23499d3b14ec   potencia-py   "python app.py"   Exited (0) 20 minutes ago  contenedor-py
+samueltabares@Tabss-MacBook docker-python %

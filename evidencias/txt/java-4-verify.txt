@@ -1,0 +1,7 @@
+samueltabares@Tabss-MacBook docker-java % docker images potencia-java
+IMAGE                  ID             DISK USAGE   CONTENT SIZE   EXTRA
+potencia-java:latest   632afaf7999c        707MB          209MB   U
+samueltabares@Tabss-MacBook docker-java % docker ps -a --filter name=contenedor-java
+CONTAINER ID   IMAGE           COMMAND                  STATUS                     NAMES
+de6597961891   potencia-java   "/__cacert_entrypoin…"   Exited (0) 16 minutes ago  contenedor-java
+samueltabares@Tabss-MacBook docker-java %

@@ -1,0 +1,7 @@
+samueltabares@Tabss-MacBook docker-python % docker start -i contenedor-py
+=== CALCULADORA DE POTENCIA EN DOCKER (PYTHON) ===
+Ingrese la base (b): 5
+Ingrese el exponente entero (e): 3
+
+Resultado Exitoso: 5.0 elevado a la 3 es = 125.0
+samueltabares@Tabss-MacBook docker-python %

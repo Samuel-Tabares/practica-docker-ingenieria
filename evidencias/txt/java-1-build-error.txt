@@ -1,0 +1,16 @@
+samueltabares@Tabss-MacBook docker-java % docker build -t potencia-java .
+[+] Building 5.2s (3/3) FINISHED                           docker:desktop-linux
+ => [internal] load build definition from Dockerfile                    0.0s
+ => => transferring dockerfile: 418B                                    0.0s
+ => ERROR [internal] load metadata for docker.io/library/openjdk:17-slim  5.1s
+------
+ > [internal] load metadata for docker.io/library/openjdk:17-slim:
+------
+Dockerfile:2
+--------------------
+   1 |     # 1. Imagen base que incluye el JDK para compilar y ejecutar
+   2 | >>> FROM openjdk:17-slim
+   3 |
+--------------------
+ERROR: failed to solve: openjdk:17-slim: not found
+samueltabares@Tabss-MacBook docker-java %

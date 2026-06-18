@@ -1,0 +1,7 @@
+samueltabares@Tabss-MacBook docker-java % docker run -it --name contenedor-java potencia-java
+=== CALCULADORA DE POTENCIA EN DOCKER (JAVA) ===
+Ingrese la base (b): 2
+Ingrese el exponente entero (e): 8
+
+Resultado Exitoso: 2.00 elevado a la 8 es = 256.00
+samueltabares@Tabss-MacBook docker-java %

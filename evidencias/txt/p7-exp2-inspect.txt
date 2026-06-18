@@ -1,0 +1,10 @@
+samueltabares@Tabss-MacBook docker-python % docker inspect -f '{{.State.Status}}' contenedor-py
+exited
+samueltabares@Tabss-MacBook docker-python % docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' contenedor-py
+
+  (vacio)  <- un contenedor DETENIDO no tiene IP asignada
+
+# Para ver la IP interna el contenedor debe estar EN EJECUCION:
+samueltabares@Tabss-MacBook docker-python % docker run -d --name contenedor-py-vivo potencia-py sleep 300
+samueltabares@Tabss-MacBook docker-python % docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' contenedor-py-vivo
+172.17.0.2

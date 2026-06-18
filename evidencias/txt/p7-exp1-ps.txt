@@ -1,0 +1,20 @@
+samueltabares@Tabss-MacBook practica-docker-ingenieria % docker ps -a --format "table {{.Names}}\t{{.Image}}\t{{.Status}}"
+NAMES                          IMAGE                          STATUS
+contenedor-py-v2               potencia-py                    Exited (0) 49 seconds ago
+contenedor-java                potencia-java                  Exited (0) 30 minutes ago
+contenedor-py                  43b0a01e8335                   Exited (0) About a minute ago
+pruebas_docker_compose-app-1   pruebas_docker_compose-app     Exited (0) 2 days ago
+pruebas_docker_compose-db-1    postgres:16                    Exited (0) 2 days ago
+mi-contenedor                  mi-imagen:v1                   Exited (0) 6 days ago
+mi-db                          mariadb:11                     Exited (0) 6 days ago
+servidor-web                   nginx                          Exited (0) 6 days ago
+pensive_darwin                 ubuntu                         Exited (0) 6 days ago
+elated_feynman                 hello-world                    Exited (0) 6 days ago
+trabix-adminer-dev             adminer:latest                 Up 46 minutes
+trabix-redis-commander-dev     rediscommander/redis-commander Up 46 minutes (healthy)
+trabix-db-dev                  postgres:16-alpine             Up 46 minutes (healthy)
+trabix-redis-dev               redis:7-alpine                 Up 46 minutes (healthy)
+granizado-bot-simulator-db     postgres:16                    Exited (0) 8 weeks ago
+samueltabares@Tabss-MacBook practica-docker-ingenieria % docker ps -a -q | wc -l
+15
+samueltabares@Tabss-MacBook practica-docker-ingenieria %

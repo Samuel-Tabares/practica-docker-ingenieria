@@ -1,0 +1,24 @@
+samueltabares@Tabss-MacBook docker-python % docker build -t potencia-py .
+[+] Building 0.8s (9/9) FINISHED                           docker:desktop-linux
+ => [internal] load build definition from Dockerfile                    0.0s
+ => [internal] load metadata for docker.io/library/python:3.10-slim     0.5s
+ => CACHED [1/3] FROM docker.io/library/python:3.10-slim                0.0s
+ => [2/3] WORKDIR /usr/src/app                                          0.0s
+ => [3/3] COPY app.py .                                                 0.0s
+ => exporting to image                                                  0.1s
+ => => naming to docker.io/library/potencia-py:latest                   0.0s
+samueltabares@Tabss-MacBook docker-python % docker run -it --name contenedor-py-v2 potencia-py
+=== CALCULADORA DE POTENCIA EN DOCKER (PYTHON v2) ===
+Ingrese la base (b): 5
+Ingrese el exponente entero (e): 3
+Resultado Exitoso: 5.0 elevado a la 3 es = 125.0
+
+¿Desea realizar otro cálculo? (Enter = sí / 'salir' = terminar): 
+
+Ingrese la base (b): 2
+Ingrese el exponente entero (e): 4
+Resultado Exitoso: 2.0 elevado a la 4 es = 16.0
+
+¿Desea realizar otro cálculo? (Enter = sí / 'salir' = terminar): salir
+Saliendo de la calculadora. ¡Hasta luego!
+samueltabares@Tabss-MacBook docker-python %

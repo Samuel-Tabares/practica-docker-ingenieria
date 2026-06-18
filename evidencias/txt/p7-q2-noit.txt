@@ -1,0 +1,9 @@
+samueltabares@Tabss-MacBook docker-python % docker run --rm potencia-py
+=== CALCULADORA DE POTENCIA EN DOCKER (PYTHON) ===
+Ingrese la base (b): Traceback (most recent call last):
+  File "/usr/src/app/app.py", line 19, in <module>
+    calcular_potencia()
+  File "/usr/src/app/app.py", line 6, in calcular_potencia
+    base = float(input("Ingrese la base (b): "))
+EOFError: EOF when reading a line
+samueltabares@Tabss-MacBook docker-python %

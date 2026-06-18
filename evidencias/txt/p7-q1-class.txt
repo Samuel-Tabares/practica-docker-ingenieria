@@ -1,0 +1,7 @@
+samueltabares@Tabss-MacBook docker-java % docker run --rm potencia-java ls -la /app
+total 16
+drwxr-xr-x 1 root root 4096 Jun 18 18:31 .
+drwxr-xr-x 1 root root 4096 Jun 18 18:58 ..
+-rw-r--r-- 1 root root 1502 Jun 18 18:31 Potencia.class
+-rw-r--r-- 1 root root  966 Jun 18 18:26 Potencia.java
+samueltabares@Tabss-MacBook docker-java %
