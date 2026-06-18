@@ -1,3 +1,11 @@
+## 📦 Repositorio del proyecto
+
+### 👉 https://github.com/Samuel-Tabares/practica-docker-ingenieria
+
+Todo el código, los Dockerfiles y las evidencias de esta práctica están publicados en el repositorio de GitHub anterior.
+
+---
+
 # Evidencias — Práctica de Docker (Puntos 4 y 7)
 
 > **Punto 4:** Ejercicio Práctico Principal — Cálculo de Potencia (Python y Java).
